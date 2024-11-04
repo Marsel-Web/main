@@ -133,3 +133,13 @@ a:hover::before {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+button {
+  border-radius: 500px;
+  background-color: rgb(52, 10, 135);
+  color: white;
+  transition: background-color 0.3 ease;
+}
+button:hover {
+  background-color: rgb(37, 7, 122);
+}
