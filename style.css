@@ -116,7 +116,7 @@ h1,h2,h3,h4,h5,h6,p,a {
   overflow: hidden;
 }
 
-a::before {
+.a::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -129,17 +129,18 @@ a::before {
     transform-origin: bottom right;
 }
 
-a:hover::before {
+.a:hover::before {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
-button {
+.button {
   border-radius: 500px;
   background-color: rgb(52, 10, 135);
   color: white;
   transition: background-color 0.3s ease;
+  padding: 20px 20px;
 }
-button:hover {
+.button:hover {
   background-color: rgb(37, 7, 122);
 }
