@@ -1,5 +1,5 @@
 @import url('//fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 body {
   background-color: rgb(17, 3, 102);
@@ -11,6 +11,7 @@ h1 {
   font-weight:10;
   font-size:48px;
 }
+
 p {
   font-family: 'DM Sans', sans-serif;
   font-size:18px;
