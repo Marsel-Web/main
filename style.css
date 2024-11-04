@@ -138,7 +138,7 @@ button {
   border-radius: 500px;
   background-color: rgb(52, 10, 135);
   color: white;
-  transition: background-color 0.3 ease;
+  transition: background-color 0.3s ease;
 }
 button:hover {
   background-color: rgb(37, 7, 122);
