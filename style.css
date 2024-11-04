@@ -136,7 +136,7 @@ h1,h2,h3,h4,h5,h6,p,a {
 }
 
 .button {
-  border-radius: 400px;
+  border-radius: 500px;
   background-color: rgb(52, 10, 135);
   color: white;
   transition: background-color 0.3s ease;
